@@ -1,9 +1,16 @@
 h1 {
     font-family: 'Courier New', Courier, monospace;
-}
-h1 {
-    font-size: 35px;
+    font-size: 40px;
 }
 .big-font {
     font-size: 20px;
+}
+.fuente-negrita {
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.estilo-italico {
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
 }
