@@ -24,6 +24,40 @@ h3 {
 }
 .font-eater {
     font-family: 'Eater';
+    font-size: 30px;
+}
+p.font-20 {
+    font-size: 30px;
+}
+span.font-strange {
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    /* Llamando un color */
+    color: goldenrod;
+}
+h5 {
+    font-size: 30px;
+    color: rgb(2, 22, 92)
+}
+h6 {
+    font-size: 32px;
+    color: #32cd32
+}
+p.font-normal {
+    letter-spacing: .3em;
+    font-size: 31px;
+    color: #046304
+}
+p.espaciadowordancho {
+    word-spacing: 1.5em;
+    font-size: 31px;
+    color: rgb(rgb(230, 152, 9), green, blue)
+}
+p.espaciadolineaancho {
+    line-height: 3em;
+    font-size: 31px;
+    color: yellow;
 }
 /* eater-regular - latin */
 @font-face {
