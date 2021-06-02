@@ -57,7 +57,7 @@ p.espaciadowordancho {
 p.espaciadolineaancho {
     line-height: 3em;
     font-size: 31px;
-    color: yellow;
+    color: rgb(121, 121, 22);
 }
 /* eater-regular - latin */
 @font-face {
