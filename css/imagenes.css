@@ -1,0 +1,14 @@
+img {
+    display: block;
+    margin: 0 auto;
+}
+.img-catalogo {
+    display: inline;
+    margin-bottom: -1.3em;
+}
+div {
+    display: inline-block;
+    margin: 15px;
+    height: 250px;
+    width: 380px;
+}
