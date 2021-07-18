@@ -1,0 +1,72 @@
+h1 {
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    font-size: 1.5em;
+    margin: 0 auto;
+    border: 1px solid rgb(220,220,220);
+    border-top-left-radius: 5px;
+}
+th, td {
+    border: 1px solid rgb(98,98,98);
+    padding: 0.8em 1em;
+    text-align: center;
+}
+td {
+    background-color: rgb(229,229,229);
+    color: rgb(49,49,49);
+    border: 1px solid white;
+}
+th.encabezado-horizontal {
+    color: white;
+}
+.borde-titulo-toronto {
+    border-radius: 10px;
+    border: 3px solid rgb(201, 173, 173);
+    background-color: rgb(221, 137, 88);
+}
+.borde-titulo-londres {
+    border-radius: 10px;
+    border: 3px solid rgb(201, 173, 173);
+    background-color: rgb(185, 104, 201);
+}
+.borde-titulo-moscu {
+    border-radius: 10px;
+    border: 3px solid rgb(201, 173, 173);
+    background-color: rgb(75, 118, 211);
+}
+.borde-titulo-mexico {
+    border: rgb(201, 173, 173);
+    border-radius: 10px;
+    background-color: rgb(89, 212, 116);
+}
+.borde-titulo-londres, .borde-titulo-mexico, .borde-titulo-moscu, .borde-titulo-toronto {
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid white;
+}
+.titulo-copa-airleans {
+    background-color: rgb(223, 137, 24);
+    border: 0.2px solid black;
+}
+.titulo-avianca {
+    background-color: rgb(236, 199, 76);
+    border: 0.2px solid black;
+}
+.titulo-air-europa {
+    background-color: rgb(233, 220, 41);
+    border: 0.2px solid black;
+}
+.sin-titulo {
+    border: white;
+}
+.titulo-latam {
+    border: 0.2px solid black;
+    background-color: rgb(233, 193, 17);
+}
+.titulo-american-airleanes {
+    background-color: rgb(223, 137, 24);
+    border: 0.2px solid black;
+}

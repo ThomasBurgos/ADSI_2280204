@@ -4,41 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/fuentes.css">
+    <link rel="stylesheet" href="css/tablas.css">
     <title>Tablas</title>
 </head>
-    <h1>Tablas en HTML</h1>
+<body>
+    <h1>TABLAS EN HTML</h1>
     <table>
         <tr>
-            <th>Ciudad de Mexico</th>
-            <th>Moscu</th>
-            <th>Londres</th>
-            <th>Toronto</th>
+            <th class="sin-titulo"></th>
+            <th class="borde-titulo-mexico">Ciudad de Mexico</th>
+            <th class="borde-titulo-moscu">Moscu</th>
+            <th class="borde-titulo-londres">Londres</th>
+            <th class="borde-titulo-toronto">Toronto</th>
         </tr>
         <tr>
-            <th>Copa Airleans</th>
-            <th>$954.000</th>
-            <th>$1.350.000</th>
-            <th>$1.350.000</th>
-            <th>$994.000</th>
+            <th class="titulo-copa-airleans">Copa Airleans</th>
+            <td>$1.000.000</td>
+            <td colspan="2">$1.350.000</td>
+            <td>$1.204.000</td>
         </tr>
         <tr>
-            <th>Avianca</th>
-            <th>$894.000</th>
-            <th>$1.500.000</th>
-            <th>$1.107.000</th>
-            <th>$994.000</th>
+            <th class="titulo-avianca">Avianca</th>
+            <td rowspan="3">$984.000</td>
+            <td>$1.500.000</td>
+            <td>$1.107.000</td>
+            <td>$1.047.000</td>
         </tr>
         <tr>
-            <th>Advanced Air</th>
-            <th>$984.000</th>
-            <th>$1.471.000</th>
-            <th>$1.200.000</th>
-            <th>$1.010.000</th>
+            <th class="titulo-air-europa">Air Europa</th>
+            <td>$1.471.000</td>
+            <td>$1.200.000</td>
+            <td>$1.010.000</td>
         </tr>
         <tr>
-            <th>Latam</th>
-            
+            <th class="titulo-latam">Latam</th>
+            <td>$1.304.125</td>
+            <td>$1.000.000</td>
+            <td rowspan="2">$1.570.000</td>
+        </tr>
+        <tr>
+            <th class="titulo-american-airleanes">American Airlines</th>
+            <td>$1.041.000</td>
+            <td>$1.400.000</td>
+            <td>$1.120.000</td>
         </tr>
     </table>
-<body>
+</body>
