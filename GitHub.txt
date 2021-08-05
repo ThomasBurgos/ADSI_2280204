@@ -1,1 +1,12 @@
 https://thomasburgos.github.io/ADSI_2280204/
+
+cd /d/ADSI_2280204
+git status
+git add --all
+git commit -m "MENSAJE DESCRIPTIVO"
+git push origin master
+
+git init
+git add --all user.name
+git add --all user.email
+git add ous origin www.github
