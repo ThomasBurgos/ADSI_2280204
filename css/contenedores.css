@@ -1,5 +1,40 @@
 .box-1 {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 130px;
     background-color: darkcyan;
+.box-2 {
+    width: 200px;
+    height: 130px;
+    background-color: black;
+}
+.box-3 {
+    width: 200px;
+    height: 130px;
+    background-color: tomato;
+}
+.box-4 {
+    width: 200px;
+    height: 130px;
+    background-color: thistle;
+}
+.box-5 {
+    width: 200px;
+    height: 130px;
+    background-color: rgb(117, 185, 185);
+}
+.box-6 {
+    width: 200px;
+    height: 130px;
+    background-color: turquoise;
+}
+.box-7 {
+    width: 200px;
+    height: 130px;
+    background-color: violet;
+}
+.box-1, .box-3, .box-6 {
+    display: inline-block;
+}
+p {
+    color: white;  
 }
