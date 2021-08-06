@@ -6,7 +6,7 @@
 }
 .box-1 {
     width: 200px;
-    box-shadow: 5px 5px 5px rgb(48, 48, 48);
+    box-shadow: 5px 5px 5px rgb(25, 192, 192);
     height: 100px;
     background-color: rgb(25, 192, 192);
     display: inline;
@@ -14,7 +14,7 @@
  }
 .box-3 {
     width: 200px;
-    box-shadow: 5px 5px 5px rgb(48, 48, 48);
+    box-shadow: 5px 5px 5px tomato;
     height: 90px;
     background-color: tomato;
     display: inline-block;
@@ -24,18 +24,17 @@
     width: 200px;
     height: 130px;
     padding: 10px;
-    box-shadow: 5px 5px 5px rgb(48, 48, 48);
+    box-shadow: 5px 5px 5px thistle;
     background-color: thistle;
     display: inline-block;
 }
 .box-5 {
     width: 200px;
-    box-shadow: 5px 5px 5px rgb(48, 48, 48);
     height: 130px;
     padding: 10px;
-    box-shadow: 5px 5px 5px rgb(48, 48, 48);
+    box-shadow: 5px 5px 5px rgb(15, 223, 102);
     display: inline-block;
-    background-color: rgb(117, 185, 185);
+    background-color: rgb(15, 223, 102));
 }
 .box-6 {
     width: 200px;
@@ -43,13 +42,13 @@
     padding: 10px;
     background-color: turquoise;
     display: inline-block;
-    box-shadow: 5px 5px 5px rgb(48, 48, 48);
+    box-shadow: 5px 5px 5px turquoise;
 }
 .box-7 {
     width: 200px;
     height: 130px;
     padding: 10px;
-    box-shadow: 5px 5px 5px rgb(48, 48, 48);
+    box-shadow: 5px 5px 5px violet;
     background-color: violet;
     display: inline-block;
 }
@@ -57,15 +56,15 @@
     width: 200px;
     padding: 10px;
     height: 130px;
-    box-shadow: 5px 5px 5px rgb(48, 48, 48);
-    background-color: rgb(146, 9, 146);
+    box-shadow: 5px 5px 5px rgb(10, 26, 248);
+    background-color: rgb(10, 26, 248);
     display: inline-block;
 }
 .box-1, .box-3, .box-6 {
     display: inline-block;
 }
 p {
-    color: white;
+    color: black;
     font-size: 1em;
     text-align: center;
 
