@@ -12,8 +12,31 @@ ul {
 li {
     display: inline-block;
     padding: 20px;
+    position: relative;
 }
 a {
+    display: block;
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
+}
+.sub-items {
+    display: block;
+    position: absolute;
+    top: 200%;
+    overflow: hidden;
+}
+li:hover .children {
+    display: block;
+    position: absolute;
+    width: 100px;
+}
+.children li {
+    overflow: hidden;
+    display: block;
+    border-bottom: 1px solid rgb(225, 225, 225,.5);
+}
+li .children {
+    display: none;
+    position: absolute;
+    top: 101%;
 }
